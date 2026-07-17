@@ -5,5 +5,5 @@ print(f"Random guess: {Guess}")
 
 cards = ['jack', 'queen', 'king', 'ace']
 random.shuffle(cards)
-for i in cards:
-    print(i)
+for card in cards:
+    print(card)
